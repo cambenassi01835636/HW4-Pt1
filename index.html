@@ -1,0 +1,51 @@
+<!--
+    File: index.html
+    GUI Assignment: JS Dynamic Multiplication Table
+    Cameron Benassi, UMass Lowell Computer Science, cameron_benassi@student.uml.edu 
+    Copyright (c) 2021 by Cameron.  All rights reserved.  May be freely copied or excerpted 
+    for educational purposes with credit to the author. updated by CB on November 21, 2021
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        <title>Multiplication Table Generator - v2</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h3>Multiplication Table Generator - v2</h3>
+            <form id="numbers">
+                1st Number Low End:
+                <div class="inputWrapper"><input name="firstLow" id="firstLow" type="text"></div>
+                1st Number High End:
+                <div class="inputWrapper"><input name="firstHigh" id="firstHigh" type="text"></div>
+                2nd Number Low End:
+                <div class="inputWrapper"><input name="secondLow" id="secondLow" type="text"></div>
+                2nd Number High End:
+                <div class="inputWrapper"><input name="secondHigh" id="secondHigh" type="text"></div>
+                <input class="btn btn-primary" id="submit" type="button" value="Calculate">
+            </form>
+            <br><br>
+            <table id="results">
+                <tHead></tHead>
+                <tBody></tBody>
+            </table>
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/script-main.js"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.14.0/additional-methods.js"></script>
+
+        <script type="text/javascript" src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"></script>
+    </body>
+</html>
